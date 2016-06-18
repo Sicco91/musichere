@@ -1,0 +1,114 @@
+/* RESET CSS */
+div { margin:0 auto; padding:0px; }
+
+body{
+font:Calibri;
+}
+
+/* Div Testata nella parte superiore */
+#testata {
+   background:#5d7477;
+   width:1265px;
+   height:45px;
+   top:0;
+   left:0;
+   position:fixed;
+}
+
+/* Div per i link contenuti nella testata */
+#link {
+   width:100px;
+   float:left;
+   text-align:left;
+   font-weight:bold;
+   margin-left:10px;
+   margin-top:10px;
+}
+
+/* Div login contenuto nella testata */
+#login {
+   text-align:right;
+   float:right;
+   font-weight:bold;
+   margin-right:10px;
+   margin-top:10px;
+}
+
+
+/* Div logout contenuto nella testata */
+#logout {
+   text-align:right;
+   font-weight:bold;
+   margin-right:10px;
+   margin-top:10px;
+}
+
+
+/* Div Contenitore */
+#container { 
+   width:1000px;
+   min-height:700px;
+   margin-top:5px;
+   padding:50px
+ }
+
+/* Div contenuto nella parte sinistra */
+#contenuto {
+   width:673px; /*810*/
+   height:512px;
+   float:left;
+   background:#5d7477;
+   border-radius:20px;
+   margin-top:15px;
+}
+
+/* Div che contiene il div menu e il div testi */
+#contenuto1 {
+   width:270px;
+   height:512px;
+   float:right;
+   margin-top:15px;
+}
+
+/* Div menu */
+#menu {
+   width:270px;
+   height:50px;
+   background:#5d7477;
+   border-radius:20px;
+   float:right;
+}
+
+/*Div per la ricerca contenuto nel div menu*/
+#cerca {
+   float:right;
+   text-align:right;
+   margin-right:12px;
+}
+
+/* Div testi nella parte destra */
+#testi {
+   width:270px;
+   height:447px;
+   float:right;
+   background:#5d7477;
+   border-radius:20px;
+   margin-top:15px;
+}
+
+/* Div in basso per permettere di leggere le varie normative */
+#footer {
+   width:1000px;
+   height:20px;
+   background:#5d7477;
+
+   margin-top:2px;
+   margin-left:46px;
+   padding:5px;
+   text-align: center;
+   border-radius:10px;
+}
+
+#discografia{
+text-align:left;
+}
