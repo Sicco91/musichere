@@ -8,7 +8,7 @@ font:Calibri;
 /* Div Testata nella parte superiore */
 #testata {
    background:#5d7477;
-   width:1265px;
+   width:100%; /* 1265 */
    height:45px;
    top:0;
    left:0;
@@ -101,9 +101,6 @@ font:Calibri;
    width:1000px;
    height:20px;
    background:#5d7477;
-
-   margin-top:2px;
-   margin-left:46px;
    padding:5px;
    text-align: center;
    border-radius:10px;
