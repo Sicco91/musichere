@@ -1,0 +1,51 @@
+/* Formato delle righe della tabella */
+tr {  
+font:15px Calibri;
+font-weight:bold;
+}
+
+/* Formato dei titoli delle colonne della tabella */
+th {
+font:20px Calibri;
+font-weight:bold;
+}
+
+h1 {
+font:35px Calibri;
+font-weight:bold;
+}
+
+/* bottone che una volta cliccato apre il lettore musicale */
+#play {
+	width:30px;
+	height:30px;
+	cursor:pointer;  /* Codice css3 per rendere attiva l'immagine */
+	float:left;
+	}
+	
+/* Lettore musicale contenuto nel div testata */
+#lettore{
+	width:300px;
+	height:45px;
+	}
+
+/* Contenitore per lo Sfondo dell'artista */
+#sfondo{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position:fixed;
+	z-index:-1;
+	border-radius:20px;
+	}
+
+/* Immagine di sfondo */
+#sfondo img{
+	width:100%;
+	height:100%;
+	opacity:0.25;                /* Livello di opacità per l'immagine dell'artista */
+	filter:alpha(opacity=25);  
+	border-radius:20px;
+	}
+

@@ -4,7 +4,7 @@
 
 <head>
 	<title>MusicHere</title>
-	<link rel="stylesheet" type="text/css" href="File css/stile.css" />
+	<link rel="stylesheet" type="text/css" href="css/stile.css" />
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.20" />
 </head>

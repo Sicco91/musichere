@@ -1,11 +1,10 @@
-look that!
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
 	<title>MusicHere</title>
-	<link rel="stylesheet" type="text/css" href="File css/stile.css" />
+	<link rel="stylesheet" type="text/css" href="css/stile.css" />
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.20" />
 </head>

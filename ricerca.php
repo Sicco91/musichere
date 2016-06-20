@@ -1,8 +1,8 @@
 <html>
-<head> <link rel="stylesheet" type="text/css" href="File css/ricerca.css" /> 
-	<script language="javascript"type="text/javascript" src="File js/libreria1.js"></script>
-	<script type="text/javascript" src="File js/libreria2.js"></script>
-	<script  type="text/javascript" src="File js/lettore.js"></script>
+<head> <link rel="stylesheet" type="text/css" href="css/ricerca.css" /> 
+	<script language="javascript"type="text/javascript" src="js/libreria1.js"></script>
+	<script type="text/javascript" src="js/libreria2.js"></script>
+	<script  type="text/javascript" src="js/lettore.js"></script>
 </head>
 <body>
 	
