@@ -9,34 +9,34 @@
 	<meta name="generator" content="Geany 0.20" />
 </head>
 
-<body bgcolor="#5d7477">
+<body bgcolor="#607D8B">
 	<center><img src="logo2.png" width="350" height="210"></center>
 	<?php
       if(!isset($_POST['submit']))
       {
-		  ?>
-	<center><table>
-	 <form action="#" method="post">
-		 <tr>
-	 <td>Nome:</td>
-	 <td><input type="text" name="nome"></td> </tr>
-	 <td>Cognome:</td>
-	 <td><input type="text" name="cognome"></td> </tr>
-	 <td>Email:</td>
-	 <td><input type="text" name="email"></td> </tr>
-	 <td>Password:</td>
-	 <td><input type="password" name="password"></td> </tr>
-	 <td><input type="submit" value="Registrati!" name="submit"></td> 
-	     </tr>
-	 </table></center>
-	 </form>
-	 <center>Se hai già effettuato la registrazione, effettua l'<a href="login.php">accesso!</a></center>
-	 
-
-<?php
-  }
-  else
-  {
+	?>
+		<center>
+			<table>
+			 <form action="#" method="post">
+				<tr>
+		 			<td>Nome:</td>
+		 			<td><input type="text" name="nome"></td> </tr>
+		 			<td>Cognome:</td>
+		 			<td><input type="text" name="cognome"></td> </tr>
+		 			<td>Email:</td>
+		 			<td><input type="text" name="email"></td> </tr>
+		 			<td>Password:</td>
+		 			<td><input type="password" name="password"></td> </tr>
+		 			<td><input type="submit" value="Registrati!" name="submit"></td>
+	    	</table>
+	    </center>
+	 	</form>
+	 	<br />
+	 	<center>Se hai già effettuato la registrazione, effettua l'<a href="login.php">accesso!</a></center>
+	<?php
+ 	 }
+  	 	else
+  	 {
 	  include 'connessione.php';
 	  
 	  $nome = mysql_real_escape_string($_POST['nome']);                   // per prevenire attacchi informatici
@@ -54,18 +54,13 @@
 	  }
 	  else
 	  {
-		  if($nome == NULL || $email == NULL || $password == NULL) 
-		  {
+		  if($nome == NULL || $email == NULL || $password == NULL)
 			  echo "<center>Campo dati vuoto! <a href='index.php'>Ritenta</a></center>";
-	      }
 	      else
-	       {
 			  echo "<center>Registrazione Effettuata! Effettua l'<a href='login.php'>Accesso!</a><center>";
-	       }
-       }
-   }
-    
-?>
+      }
+   }  
+	?>
 
  </body>
 </html>
